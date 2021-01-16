@@ -7,7 +7,7 @@ $ npm install
 == PATHを通す
 
 ----
-$ export PATH=$PATH:./node_modules/.bin
+$ export PATH=$PATH:${PWD}/node_modules/.bin
 ----
 
 == 確認
