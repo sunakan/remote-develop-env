@@ -3,3 +3,19 @@
 ----
 $ npm install
 ----
+
+== PATHを通す
+
+----
+$ export PATH=$PATH:./node_modules/.bin
+----
+
+== 確認
+
+----
+$ tsc --version
+Version 4.1.3
+
+$ cdk --version
+1.85.0 (build 5f44668)
+----
